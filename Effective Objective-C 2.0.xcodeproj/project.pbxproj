@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0489EE182022B790005C4EAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489EE172022B790005C4EAA /* AppDelegate.m */; };
+		0489EE1B2022B790005C4EAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489EE1A2022B790005C4EAA /* ViewController.m */; };
+		0489EE1E2022B790005C4EAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0489EE1C2022B790005C4EAA /* Main.storyboard */; };
+		0489EE202022B790005C4EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0489EE1F2022B790005C4EAA /* Assets.xcassets */; };
+		0489EE232022B791005C4EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0489EE212022B791005C4EAA /* LaunchScreen.storyboard */; };
+		0489EE262022B791005C4EAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489EE252022B791005C4EAA /* main.m */; };
+		0489EE302022B791005C4EAA /* Effective_Objective_C_2_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489EE2F2022B791005C4EAA /* Effective_Objective_C_2_0Tests.m */; };
+		0489EE3B2022B791005C4EAA /* Effective_Objective_C_2_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489EE3A2022B791005C4EAA /* Effective_Objective_C_2_0UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0489EE2C2022B791005C4EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0489EE0B2022B790005C4EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0489EE122022B790005C4EAA;
+			remoteInfo = "Effective Objective-C 2.0";
+		};
+		0489EE372022B791005C4EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0489EE0B2022B790005C4EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0489EE122022B790005C4EAA;
+			remoteInfo = "Effective Objective-C 2.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0489EE132022B790005C4EAA /* Effective Objective-C 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Effective Objective-C 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0489EE162022B790005C4EAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0489EE172022B790005C4EAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0489EE192022B790005C4EAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0489EE1A2022B790005C4EAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0489EE1D2022B790005C4EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0489EE1F2022B790005C4EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0489EE222022B791005C4EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0489EE242022B791005C4EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0489EE252022B791005C4EAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0489EE2B2022B791005C4EAA /* Effective Objective-C 2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Effective Objective-C 2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0489EE2F2022B791005C4EAA /* Effective_Objective_C_2_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Effective_Objective_C_2_0Tests.m; sourceTree = "<group>"; };
+		0489EE312022B791005C4EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0489EE362022B791005C4EAA /* Effective Objective-C 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Effective Objective-C 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0489EE3A2022B791005C4EAA /* Effective_Objective_C_2_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Effective_Objective_C_2_0UITests.m; sourceTree = "<group>"; };
+		0489EE3C2022B791005C4EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0489EE102022B790005C4EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0489EE282022B791005C4EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0489EE332022B791005C4EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0489EE0A2022B790005C4EAA = {
+			isa = PBXGroup;
+			children = (
+				0489EE152022B790005C4EAA /* Effective Objective-C 2.0 */,
+				0489EE2E2022B791005C4EAA /* Effective Objective-C 2.0Tests */,
+				0489EE392022B791005C4EAA /* Effective Objective-C 2.0UITests */,
+				0489EE142022B790005C4EAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0489EE142022B790005C4EAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0489EE132022B790005C4EAA /* Effective Objective-C 2.0.app */,
+				0489EE2B2022B791005C4EAA /* Effective Objective-C 2.0Tests.xctest */,
+				0489EE362022B791005C4EAA /* Effective Objective-C 2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0489EE152022B790005C4EAA /* Effective Objective-C 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				0489EE162022B790005C4EAA /* AppDelegate.h */,
+				0489EE172022B790005C4EAA /* AppDelegate.m */,
+				0489EE192022B790005C4EAA /* ViewController.h */,
+				0489EE1A2022B790005C4EAA /* ViewController.m */,
+				0489EE1C2022B790005C4EAA /* Main.storyboard */,
+				0489EE1F2022B790005C4EAA /* Assets.xcassets */,
+				0489EE212022B791005C4EAA /* LaunchScreen.storyboard */,
+				0489EE242022B791005C4EAA /* Info.plist */,
+				0489EE252022B791005C4EAA /* main.m */,
+			);
+			path = "Effective Objective-C 2.0";
+			sourceTree = "<group>";
+		};
+		0489EE2E2022B791005C4EAA /* Effective Objective-C 2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0489EE2F2022B791005C4EAA /* Effective_Objective_C_2_0Tests.m */,
+				0489EE312022B791005C4EAA /* Info.plist */,
+			);
+			path = "Effective Objective-C 2.0Tests";
+			sourceTree = "<group>";
+		};
+		0489EE392022B791005C4EAA /* Effective Objective-C 2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0489EE3A2022B791005C4EAA /* Effective_Objective_C_2_0UITests.m */,
+				0489EE3C2022B791005C4EAA /* Info.plist */,
+			);
+			path = "Effective Objective-C 2.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0489EE122022B790005C4EAA /* Effective Objective-C 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0489EE3F2022B791005C4EAA /* Build configuration list for PBXNativeTarget "Effective Objective-C 2.0" */;
+			buildPhases = (
+				0489EE0F2022B790005C4EAA /* Sources */,
+				0489EE102022B790005C4EAA /* Frameworks */,
+				0489EE112022B790005C4EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Effective Objective-C 2.0";
+			productName = "Effective Objective-C 2.0";
+			productReference = 0489EE132022B790005C4EAA /* Effective Objective-C 2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0489EE2A2022B791005C4EAA /* Effective Objective-C 2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0489EE422022B791005C4EAA /* Build configuration list for PBXNativeTarget "Effective Objective-C 2.0Tests" */;
+			buildPhases = (
+				0489EE272022B791005C4EAA /* Sources */,
+				0489EE282022B791005C4EAA /* Frameworks */,
+				0489EE292022B791005C4EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0489EE2D2022B791005C4EAA /* PBXTargetDependency */,
+			);
+			name = "Effective Objective-C 2.0Tests";
+			productName = "Effective Objective-C 2.0Tests";
+			productReference = 0489EE2B2022B791005C4EAA /* Effective Objective-C 2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0489EE352022B791005C4EAA /* Effective Objective-C 2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0489EE452022B791005C4EAA /* Build configuration list for PBXNativeTarget "Effective Objective-C 2.0UITests" */;
+			buildPhases = (
+				0489EE322022B791005C4EAA /* Sources */,
+				0489EE332022B791005C4EAA /* Frameworks */,
+				0489EE342022B791005C4EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0489EE382022B791005C4EAA /* PBXTargetDependency */,
+			);
+			name = "Effective Objective-C 2.0UITests";
+			productName = "Effective Objective-C 2.0UITests";
+			productReference = 0489EE362022B791005C4EAA /* Effective Objective-C 2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0489EE0B2022B790005C4EAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Jack;
+				TargetAttributes = {
+					0489EE122022B790005C4EAA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0489EE2A2022B791005C4EAA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0489EE122022B790005C4EAA;
+					};
+					0489EE352022B791005C4EAA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0489EE122022B790005C4EAA;
+					};
+				};
+			};
+			buildConfigurationList = 0489EE0E2022B790005C4EAA /* Build configuration list for PBXProject "Effective Objective-C 2.0" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0489EE0A2022B790005C4EAA;
+			productRefGroup = 0489EE142022B790005C4EAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0489EE122022B790005C4EAA /* Effective Objective-C 2.0 */,
+				0489EE2A2022B791005C4EAA /* Effective Objective-C 2.0Tests */,
+				0489EE352022B791005C4EAA /* Effective Objective-C 2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0489EE112022B790005C4EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0489EE232022B791005C4EAA /* LaunchScreen.storyboard in Resources */,
+				0489EE202022B790005C4EAA /* Assets.xcassets in Resources */,
+				0489EE1E2022B790005C4EAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0489EE292022B791005C4EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0489EE342022B791005C4EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0489EE0F2022B790005C4EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0489EE1B2022B790005C4EAA /* ViewController.m in Sources */,
+				0489EE262022B791005C4EAA /* main.m in Sources */,
+				0489EE182022B790005C4EAA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0489EE272022B791005C4EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0489EE302022B791005C4EAA /* Effective_Objective_C_2_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0489EE322022B791005C4EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0489EE3B2022B791005C4EAA /* Effective_Objective_C_2_0UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0489EE2D2022B791005C4EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0489EE122022B790005C4EAA /* Effective Objective-C 2.0 */;
+			targetProxy = 0489EE2C2022B791005C4EAA /* PBXContainerItemProxy */;
+		};
+		0489EE382022B791005C4EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0489EE122022B790005C4EAA /* Effective Objective-C 2.0 */;
+			targetProxy = 0489EE372022B791005C4EAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0489EE1C2022B790005C4EAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0489EE1D2022B790005C4EAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0489EE212022B791005C4EAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0489EE222022B791005C4EAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0489EE3D2022B791005C4EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0489EE3E2022B791005C4EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0489EE402022B791005C4EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Effective Objective-C 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.Effective-Objective-C-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0489EE412022B791005C4EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Effective Objective-C 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.Effective-Objective-C-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0489EE432022B791005C4EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Effective Objective-C 2.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.Effective-Objective-C-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Effective Objective-C 2.0.app/Effective Objective-C 2.0";
+			};
+			name = Debug;
+		};
+		0489EE442022B791005C4EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Effective Objective-C 2.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.Effective-Objective-C-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Effective Objective-C 2.0.app/Effective Objective-C 2.0";
+			};
+			name = Release;
+		};
+		0489EE462022B791005C4EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Effective Objective-C 2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.Effective-Objective-C-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Effective Objective-C 2.0";
+			};
+			name = Debug;
+		};
+		0489EE472022B791005C4EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Effective Objective-C 2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.Effective-Objective-C-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Effective Objective-C 2.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0489EE0E2022B790005C4EAA /* Build configuration list for PBXProject "Effective Objective-C 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0489EE3D2022B791005C4EAA /* Debug */,
+				0489EE3E2022B791005C4EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0489EE3F2022B791005C4EAA /* Build configuration list for PBXNativeTarget "Effective Objective-C 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0489EE402022B791005C4EAA /* Debug */,
+				0489EE412022B791005C4EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0489EE422022B791005C4EAA /* Build configuration list for PBXNativeTarget "Effective Objective-C 2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0489EE432022B791005C4EAA /* Debug */,
+				0489EE442022B791005C4EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0489EE452022B791005C4EAA /* Build configuration list for PBXNativeTarget "Effective Objective-C 2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0489EE462022B791005C4EAA /* Debug */,
+				0489EE472022B791005C4EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0489EE0B2022B790005C4EAA /* Project object */;
+}
