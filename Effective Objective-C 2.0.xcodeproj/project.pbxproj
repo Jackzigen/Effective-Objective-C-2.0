@@ -15,6 +15,11 @@
 		0489EE262022B791005C4EAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489EE252022B791005C4EAA /* main.m */; };
 		0489EE302022B791005C4EAA /* Effective_Objective_C_2_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489EE2F2022B791005C4EAA /* Effective_Objective_C_2_0Tests.m */; };
 		0489EE3B2022B791005C4EAA /* Effective_Objective_C_2_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489EE3A2022B791005C4EAA /* Effective_Objective_C_2_0UITests.m */; };
+		5A5B47892028B52C00514D75 /* HZGRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B477F2028B52A00514D75 /* HZGRuntime.m */; };
+		5A5B478A2028B52C00514D75 /* HZGRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B47812028B52A00514D75 /* HZGRectangle.m */; };
+		5A5B478B2028B52C00514D75 /* HZGPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B47832028B52B00514D75 /* HZGPerson.m */; };
+		5A5B478C2028B52C00514D75 /* HZGSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B47872028B52C00514D75 /* HZGSquare.m */; };
+		5A5B478D2028B52C00514D75 /* AboutProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B47882028B52C00514D75 /* AboutProperty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		0489EE362022B791005C4EAA /* Effective Objective-C 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Effective Objective-C 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0489EE3A2022B791005C4EAA /* Effective_Objective_C_2_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Effective_Objective_C_2_0UITests.m; sourceTree = "<group>"; };
 		0489EE3C2022B791005C4EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A5B477F2028B52A00514D75 /* HZGRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZGRuntime.m; sourceTree = "<group>"; };
+		5A5B47802028B52A00514D75 /* HZGPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZGPerson.h; sourceTree = "<group>"; };
+		5A5B47812028B52A00514D75 /* HZGRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZGRectangle.m; sourceTree = "<group>"; };
+		5A5B47822028B52B00514D75 /* AboutProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutProperty.h; sourceTree = "<group>"; };
+		5A5B47832028B52B00514D75 /* HZGPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZGPerson.m; sourceTree = "<group>"; };
+		5A5B47842028B52B00514D75 /* HZGRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZGRectangle.h; sourceTree = "<group>"; };
+		5A5B47852028B52B00514D75 /* HZGRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZGRuntime.h; sourceTree = "<group>"; };
+		5A5B47862028B52B00514D75 /* HZGSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZGSquare.h; sourceTree = "<group>"; };
+		5A5B47872028B52C00514D75 /* HZGSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZGSquare.m; sourceTree = "<group>"; };
+		5A5B47882028B52C00514D75 /* AboutProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutProperty.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				0489EE172022B790005C4EAA /* AppDelegate.m */,
 				0489EE192022B790005C4EAA /* ViewController.h */,
 				0489EE1A2022B790005C4EAA /* ViewController.m */,
+				5A5B47822028B52B00514D75 /* AboutProperty.h */,
+				5A5B47882028B52C00514D75 /* AboutProperty.m */,
+				5A5B47802028B52A00514D75 /* HZGPerson.h */,
+				5A5B47832028B52B00514D75 /* HZGPerson.m */,
+				5A5B47842028B52B00514D75 /* HZGRectangle.h */,
+				5A5B47812028B52A00514D75 /* HZGRectangle.m */,
+				5A5B47852028B52B00514D75 /* HZGRuntime.h */,
+				5A5B477F2028B52A00514D75 /* HZGRuntime.m */,
+				5A5B47862028B52B00514D75 /* HZGSquare.h */,
+				5A5B47872028B52C00514D75 /* HZGSquare.m */,
 				0489EE1C2022B790005C4EAA /* Main.storyboard */,
 				0489EE1F2022B790005C4EAA /* Assets.xcassets */,
 				0489EE212022B791005C4EAA /* LaunchScreen.storyboard */,
@@ -265,8 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5B47892028B52C00514D75 /* HZGRuntime.m in Sources */,
+				5A5B478A2028B52C00514D75 /* HZGRectangle.m in Sources */,
+				5A5B478D2028B52C00514D75 /* AboutProperty.m in Sources */,
 				0489EE1B2022B790005C4EAA /* ViewController.m in Sources */,
 				0489EE262022B791005C4EAA /* main.m in Sources */,
+				5A5B478C2028B52C00514D75 /* HZGSquare.m in Sources */,
+				5A5B478B2028B52C00514D75 /* HZGPerson.m in Sources */,
 				0489EE182022B790005C4EAA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
